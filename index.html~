@@ -8,12 +8,12 @@
   <meta name="author" content="Zijun Luo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zijun Luo's Homepage</title>
+  <style>
+    div.content {width: 960px}
+  </style>
 </head> 
 
-div.content {width: 960px}
-
 <body bgcolor="white" text="black" style="font-size:20;" class="contet">
-<div class="contet">
 
 <h1>Zijun Luo's Homepage</h1>
 
@@ -84,7 +84,6 @@ Spring 2012, Fall 2011, Fall 2010, Spring 2010, Fall 2009</li>
 Summer 2012</li>
 </ul>
 
-</div>
 </body>
 
 </html>

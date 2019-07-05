@@ -1,0 +1,330 @@
+/* KSU Tabs Template Stye Sheet */
+/* Originally by James Asher */
+/* Modified by Jeff Croft 08/10/2004 */
+
+/* Modified by Zijun Luo 02/26/2012 */
+
+
+
+/* General HTML tag stylings */
+/* This defines styles of background and some fonts */
+
+   body {
+      background:#E7E5DD;
+      margin:0;
+      padding:0;
+      color:#000;
+      font: 100% Times New Roman, Helvetica, serif;
+      }
+   h1.header {
+      font-family: 'Comic Sans MS', cursive;
+      font-size: 40px;
+      color: #E7E5DD;
+      font-weight: thick;
+   }
+   h1 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 24px;
+      color: #000;
+      font-weight: thick;
+   }
+   h2 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      color: #E7E5DD;
+      font-weight: normal;
+   }
+   h3 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 14px;
+      color: #E7E5DD;
+      font-weight: bold;
+   }
+
+   h4 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      color: #000;
+      font-weight: bold;
+   }
+
+   small.update {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 11px;
+      color: #665044;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+
+   p {
+      text-align: left;
+      line-height: 1.6em;
+   }
+
+
+a:link, a:active {
+	color: inherit;
+        text-decoration: none;
+}
+
+	a:visited {
+        color: inherit;
+        text-decoration: none;
+}
+
+	a:hover {
+        color: #F78E1E;
+        text-decoration: underline;
+}
+
+   address {
+   color: #E7E5DD;
+   margin: 10px 0px;
+   }
+
+   code {
+   font-size: 120%;
+   background-color:#EFECF4;
+   }
+
+/* Layout */
+
+   div#KSU_header {
+      width: 900px;
+      background-color: #F78E1E; /*SHSU: r247, g142, b30*/
+      line-height: 80px;
+      padding: 0 0 0 40px;
+      margin: 0 0 0 300px;
+   }
+
+/* Main Content Area*/
+
+   /* This is a wrapper DIV for all the content */
+   #KSU_content {
+      width: 1000px;
+      margin: 0 0 0 100px;
+   }
+
+   /* This div is for the left-hand nav */
+   /* It's 200px wide, but is allowed to scroll if someone happens to outgrow it */
+   #KSU_leftCol {
+      float: left;
+      width: 250px;
+      overflow: auto;
+      background-color:#004990;
+      padding: 10px;
+      border-top: 5px solid #F78E1E;
+      border-bottom: 5px solid #F78E1E;
+      margin: 0 20px 20px 0;
+   }
+
+   #KSU_leftCol p {
+      text-align: left;
+      line-height: 1.3em;
+   }
+
+   #KSU_leftCol ul {
+      padding:0;
+      margin: 0;
+   }
+
+   #KSU_leftCol ul li {
+      list-style-type: none;
+      padding: 0;
+      margin:0;
+   }
+
+   #KSU_leftCol ul ul {
+      margin: 0 0 0 1em;
+      list-style-position: inside;
+   }
+
+   #KSU_leftCol ul ul li {
+      margin: 0;
+   }
+
+   /* This is the right column */
+   #KSU_rightCol {
+      float: right;
+      width: 200px;
+      padding: 10px;
+      margin: 0 0 0 20px;
+
+      background-color: #fff;
+      border-left: 1px solid #ccc;
+   }
+
+   html>div#KSU_rightCol {
+      /* give other browser back their height: auto */
+      height: auto;
+   }
+
+   /* This is the center column, where most of the content is stored */
+   #KSU_centerCol {
+   overflow: visible;
+          padding: 0 0 0 0;
+          margin: 0;
+   /* This is a silly IE hack that seems to allow 100% width child elements, such as tables */
+   height: 1%;
+   }
+
+   *>#KSU_centerCol {
+   height: auto;
+       }
+
+   /* If we're using the one-column template, hide the rightCol and leftCol */
+   body.KSU_oneColumn div#KSU_leftCol {
+      display: none;
+   }
+   body.KSU_oneColumn div#KSU_rightCol {
+      display: none;
+   }
+
+   /* If we're using the two-column template, give it a left margin and hide the rightCol */
+   body.KSU_twoColumn div#KSU_centerCol {
+   margin-left: 400px;
+   width: 800px;
+   }
+
+   body.KSU_twoColumn div#KSU_rightCol {
+      display: none;
+   }
+
+   /* If we're using the three-column template, give it a left and right margins */
+   body.KSU_threeColumn div#KSU_centerCol {
+      margin-left: 270px;
+      margin-right: 240px;
+   }
+
+   /* Clearing ensures footer stays below all other content, where it belongs.
+   .KSU_clearFloats {
+      clear:both;
+   } */
+
+
+   #KSU_footer {
+      clear:both;
+      width: 900px;
+      margin: 0 0 0 224px;
+      border-top: 1px solid #004990;
+      font-size: 60%;
+   }
+
+   #KSU_footer a {
+      font-weight: bold;
+   }
+
+   #KSU_footer .KSU_footertText {
+      font-size: 95%;
+      margin-top: 10px;
+      color: #666666;
+   }
+
+   #KSU_footer img {
+      margin: 0 10px 0 10px;
+   }
+
+
+/* The .hidden classes lets us hide things from CSS-capable browsers, but still have them in text-only and other less-capable agents */
+   .KSU_hidden {
+       position: absolute;
+       left: -9999px;
+       font-size: 1px;
+   }
+
+/* Hide the skipNav from CSS browsers */
+   #KSU_skipNav {
+      position: absolute; left: -9999px;
+   }
+   /* It's doubtful anyone who has a CSS-capable browser will see the skipNav, but on the off chance they do, we'll make sure it looks decent */
+   #KSU_skipNav a:focus {
+      color:#6600A1;
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 10020px;
+      background: #fff;
+      border: solid 1px #000;
+      padding: 4px;
+      width: 15em;
+      z-index: 1;
+   }
+   #KSU_skipNav a:hover {
+      color: blue;
+   }
+   #KSU_skipNav a:active {
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 10020px;
+      background: #fff;
+      border: solid 1px #000;
+      padding: 4px;
+      width: 15em;
+      z-index: 1;
+   }
+
+/* These are some optional classes and id's that allow savvy users to do more "advanced" things within their layout */
+   /* The .KSU_rightBox and .KSU_leftBox classed creates right and left floating grey boxes */
+   #KSU_centerCol div.KSU_rightBox {
+      float:right;
+      width:150px;
+      border: 1px solid #ccc;
+      /* -moz-border-radius isn't standard CSS. It only works in Gecko-based browsers, but doesn't break anything in others */
+      -moz-border-radius:10px;
+      background-color:#004990;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+
+   #KSU_centerCol div.KSU_leftBox {
+      float:left;
+      width:150px;
+      border: 1px solid #ccc;
+      /* -moz-border-radius isn't standard CSS. It only works in Gecko-based browsers, but doesn't break anything in others */
+      -moz-border-radius:10px;
+      background-color:#f6f5f5;
+      margin:0 20px 20px 0px;
+      padding: 10px;
+   }
+
+   div.KSU_rightBox p, div.KSU_leftBox p {
+      text-align: left;
+      line-height: 1.3em;
+      margin-top: 0px
+   }
+
+   /* Use the .KSU_rightImage class to float an image to the right side of the main content column */
+   /* Note that this also scales the image to a reasonablethe co "floating" size -- 130px wide. You can override this with inline styles, if necessary */
+   #KSU_centerCol img.KSU_rightImage {
+      float:right;
+      width:200px;
+      border: 0;
+      background-color:#004990;
+      margin: 0 20px 20px 20px;
+      padding: 10px;
+   }
+   /* Similarly, you can use .KSU_leftImage class to float an image to the left side */
+   #KSU_centerCol img.KSU_leftImage {
+      float:left;
+      width:200px;
+      border: 0;
+      background-color:#ccf;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+   /* This is used exclusively in the photo section */
+   #KSU_content img.Photo {
+      float:left;
+      width:250px;
+      border: 0;
+      background-color:#ccf;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+
+   /* Define the character of UPDATE */
+   small.update {
+      color: #F78E1E;
+   }

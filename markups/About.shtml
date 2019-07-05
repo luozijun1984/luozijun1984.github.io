@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+  <head>
+    <title>Zijun Luo's Homepage</title>
+    <meta name="description" content="This is the personal webpage of Zijun Luo">
+    <meta name="keywords" content "economics "Zijun Luo" "Kansas State University"">
+    <style type="text/css">@import url("/markups/KSU_style.css");</style>
+  </head>
+
+  <body class="KSU_twoColumn">
+
+<div id="KSU_header">
+
+	<!--#include virtual="/markups/header.txt" -->
+
+</div>
+
+<div id="KSU_content">
+
+<!-- Left Column starts here -->
+
+<div id="KSU_leftCol">
+
+	<!--#include virtual="/markups/leftCol.txt" -->
+
+</div>
+
+<!-- The Main Body of the Page-->
+
+<div id="KSU_centerCol">
+	<h1>About this site</h1>
+
+	<p>This webpage was created in March 21st, 2010, the weekend after 2010 Spring Break, the second year of my PhD life.</p>
+
+	<p>The first version of this site was built inside the Kansas State University personal server back in 2009 fall semester. The idea was basically that I can have a place to exhibit myself online so some day when I am in the job market, people can easily see it and evaluate my teaching and research. Thanks to Dave Brown, a PhD graduate of Department of Economics, to share with me the template he used to set up his personal page. The template was drawn from the K-state system.</p>
+
+	<p>As a consequence, the CSS file of this site is attributed to Kansas State University. It is originally developed by James Asher, and modified by Jeff Croft in August 10th, 2004. This is the reason why you see KSU everywhere in my code. I hope this is not the abused use of the CSS file. I, however, have changed all colors and other minor place of the CSS file to make it fit my use.</p>
+
+	<p>Thanks for my friend <a href="http://www.zhuhuang.com">Zhu Huang</a> for helping me when I had some questions about deciding on a hosting company. I finally chose to try <a href="http://www.ixwebhosting.com">IX Web Hosting</a>. It looks pretty cool to have a dedicated IP with this low price, about 113 USD for three years.</p>
+
+</div>
+
+</div>
+
+<div class="KSU_clearFloats"></div>
+
+<!-- The Footer starts here -->
+
+<div id="KSU_footer">
+
+	<!--#include virtual="/markups/footer.txt" -->
+
+</div>
+
+</body>
+</html>

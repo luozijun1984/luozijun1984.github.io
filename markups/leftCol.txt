@@ -1,0 +1,60 @@
+	<h3><a href="/" style='text-decoration: none;'><b>HOME</b></a></h3>
+
+	<h2><a href="/resume/CV_ZLuo.pdf" style='text-decoration: none;'><b>Curriculum Vitae</b></a></h2>
+<!--
+<div style="font-size:12px; line-height:0px; color:#ebf2ff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (updated December 5, 2013)</a></div>
+-->
+	<h2><a href="/publications" style='text-decoration: none;'><b>Publications</b></a></h2>
+
+	<h2><a href="/workingpapers" style='text-decoration: none;'><b>Working Papers</b></a></h2>
+
+<!--
+		<div style="font-size:12px; line-height:0px; color:#ebf2ff">&nbsp; &nbsp; <a href="/research_interests.pdf">Research Statement</a></div>
+
+
+<div style="line-height:10px">&nbsp; </div>
+
+-->
+
+	<h2><a href="/teaching.html" style='text-decoration: none;'><b>Teaching</b></a></h2>
+
+<!--
+		<div style="font-size:12px; line-height:0px; color:#ebf2ff">&nbsp; &nbsp; <a href="/teaching_philosophy.pdf">Teaching Philosophy</a></div>
+
+<div style="line-height:10px">&nbsp; </div>
+
+-->
+	
+	<address>
+		Zijun Luo, PhD<br>
+		Economics and International Business<br>
+		College of Business Administration<br>
+		Sam Houston State University<br>
+		Huntsville, TX 77341-2118<br>
+	</address>
+		<div style="color:#E7E5DD">Email: <a href="mailto:luozijun@shsu.edu">luozijun@shsu.edu</a><br>
+		Last Update: November 14, 2015</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+
+<script type="text/javascript">
+
+var sc_project=7266482; 
+
+var sc_invisible=1; 
+
+var sc_security="21cd331f"; 
+
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js">
+</script>
+
+<noscript><div class="statcounter"><a title="tumblr
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/7266482/0/21cd331f/1/"
+alt="tumblr counter"></a></div></noscript>
+
+<!-- End of StatCounter Code for Default Guide -->

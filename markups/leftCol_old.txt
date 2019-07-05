@@ -1,0 +1,38 @@
+	<h2><a href="/"><b>HOME</b></a></h2>
+
+	<h2>About Me</h2>
+		<ul>
+		<li><a href="/resume">Short Bio and C.V.</a></li>
+		<li><a href="http://luozijun1984.wordpress.com">My Blog (English)</a></li>
+		<li><a href="http://blog.sina.com.cn/economist">My Blog (Chinese)</a></li>
+		<li><a href="/photos">My Photos</a></li>
+		</ul>
+	<h2>My Research</h2>
+		<ul>
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/workingpapers">Working Papers</a></li>
+		<li><a href="/rmaterial">Other Research Materials</a></li>
+		</ul>
+	<h2>My Teaching</h2>
+		<ul>
+		<li><a href="/intermicro">Intermediate Microeconomics</a></li> 
+		<li><a href="/macro">Principles of Macroeconomics</a></li> 
+		<li><a href="/micro">Principles of Microeconomics</a></li>
+		<li><a href="/tmaterial">Other Teaching Materials</a></li>
+		</ul>
+	<h2><a href="/links.html">External Links</a></h2>
+
+	<address>
+		Zijun Luo<br>
+		PhD Candidate<br>
+		Department of Economics<br>
+		Kansas State University<br>
+		Manhattan, KS 66506<br>
+	</address>
+		Email: <a href="mailto:luozijun@ksu.edu">luozijun@ksu.edu</a><br>
+		Website: <a href="http://www.luozijun.com">http://www.luozijun.com</a><br>
+		<div>Last Updated: September 1st, 2011</div>
+<p><center>
+<a href="http://www2.clustrmaps.com/counter/maps.php?url=http://www.luozijun.com" id="clustrMapsLink"><img src="http://www2.clustrmaps.com/counter/index2.php?url=http://www.luozijun.com" style="border:0px;" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg" onerror="this.onerror=null; this.src='http://clustrmaps.com/images/clustrmaps-back-soon.jpg'; document.getElementById('clustrMapsLink').href='http://clustrmaps.com';" />
+</a>
+</center></P>

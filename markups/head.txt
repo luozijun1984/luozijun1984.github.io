@@ -1,0 +1,5 @@
+	<title>Zijun Luo's Homepage</title>
+	<meta name="description" content="This is the personal webpage of Zijun Luo">
+	<meta name="keywords" content="ÂÞ×Ó¿¡;Economics;econ;Zijun Luo;luozijun;conflict">
+	<style type="text/css">@import url("/markups/KSU_style.css");</style>
+	<link rel="shortcut icon" href="/markups/shsu.ico" />

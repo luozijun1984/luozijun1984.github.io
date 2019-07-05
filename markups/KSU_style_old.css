@@ -1,0 +1,581 @@
+/* KSU Tabs Template Stye Sheet */
+/* Originally by James Asher */
+/* Modified by Jeff Croft 08/10/2004 */
+
+/* Import the brand bar styles */
+@import url("/KSU_resources/css/brandbar.css");
+
+/* General HTML tag stylings */
+
+   body {
+      background:#ccc;
+      margin:0;
+      padding:0;
+      color:#000;
+      font: 100% Times New Roman, Helvetica, serif;
+      }
+   h1.header {
+      font-family: Arial, 'Times New Roman', Sans-serif;
+      font-size: 40px;
+      color: #fff;
+      font-weight: thick;
+   }
+   h1 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 24px;
+      color: #336;
+      font-weight: thick;
+   }
+   h2 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      color: #336;
+      font-weight: normal;
+   }
+   h3 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 14px;
+      color: #336;
+      font-weight: bold;
+   }
+
+   h4 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 14px;
+      color: #336;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 10px;
+   }
+
+   small.update {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 11px;
+      color: #336;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+
+   p {
+      text-align: left;
+      line-height: 1.6em;
+   }
+
+
+a:link, a:active {
+        color: #336;
+        text-decoration: underline;
+}
+
+a:visited {
+        color: #903;
+        text-decoration: underline;
+}
+
+a:hover {
+        color: #666;
+}
+
+   address {
+   margin: 10px 0px;
+   }
+
+   code {
+   font-size: 120%;
+   background-color:#EFECF4;
+   }
+
+/* Layout */
+
+   div#KSU_header {
+      width:auto;
+      background-color:#990033;
+      line-height:80px;
+      padding: 0px 20px 0 20px;
+      margin: 10px 0 0 0;
+   }
+
+/* Tab Navigation */
+
+   #KSU_tabMenu {
+      font-size:.9em;
+      margin: 0;
+      padding: 0 20px 0 0;
+      list-style:none;
+   clear: both;
+   }
+
+   #KSU_tabMenu li {
+      display:inline;
+      width: auto;
+      margin:0;
+      padding:0;
+}
+
+   #KSU_tabMenu li a {
+  float:right;
+  display: block;
+  width: .1em;
+  background:url("/images/tab-left.gif") no-repeat left top;
+  margin:0;
+  border-bottom:1px solid #999;
+  text-decoration:none;
+  color:#fff;
+  white-space: nowrap;
+  padding:0 0 0 12px;
+   }
+
+
+ /* Commented Backslash Hack hides rule from IE5-Mac \*/
+   #KSU_tabMenu li a {
+      width: auto;
+   }
+/* End IE5-Mac hack */
+
+
+   #KSU_tabMenu li a span {
+  float: right;
+  display:block;
+  background:url("/images/tab-right.gif") no-repeat right top;
+  padding:0 12px 0 6px;
+  font-weight:bold;
+  margin: 0;
+  text-align: center;
+   }
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+   #KSU_tabMenu li a span {
+      float: none;
+   }
+/* End IE5-Mac hack */
+
+   #KSU_tabMenu li a:hover span {
+      color:#6600A1;
+   }
+   #KSU_tabMenu li a:hover {
+      background-position:0% -150px;
+   }
+   #KSU_tabMenu li a:hover span {
+      background-position:100% -150px;
+   }
+
+ body.KSU_tab1 #KSU_tabMenu li#KSU_tab1 a,
+ body.KSU_tab2 #KSU_tabMenu li#KSU_tab2 a,
+ body.KSU_tab3 #KSU_tabMenu li#KSU_tab3 a,
+ body.KSU_tab4 #KSU_tabMenu li#KSU_tab4 a,
+ body.KSU_tab5 #KSU_tabMenu li#KSU_tab5 a,
+ body.KSU_tab6 #KSU_tabMenu li#KSU_tab6 a,
+ body.KSU_tab7 #KSU_tabMenu li#KSU_tab7 a,
+ body.KSU_tab8 #KSU_tabMenu li#KSU_tab8 a,
+ body.KSU_tab9 #KSU_tabMenu li#KSU_tab9 a {
+    background-position:0 -150px;
+    border-width:0;
+    border-bottom:1px solid #cdcdcd;
+    cursor: default;
+    }
+
+ body.KSU_tab1 #KSU_tabMenu li#KSU_tab1 a span,
+ body.KSU_tab2 #KSU_tabMenu li#KSU_tab2 a span,
+ body.KSU_tab3 #KSU_tabMenu li#KSU_tab3 a span,
+ body.KSU_tab4 #KSU_tabMenu li#KSU_tab4 a span,
+ body.KSU_tab5 #KSU_tabMenu li#KSU_tab5 a span,
+ body.KSU_tab6 #KSU_tabMenu li#KSU_tab6 a span,
+ body.KSU_tab7 #KSU_tabMenu li#KSU_tab7 a span,
+ body.KSU_tab8 #KSU_tabMenu li#KSU_tab8 a span,
+ body.KSU_tab9 #KSU_tabMenu li#KSU_tab9 a span {
+    background-position:100% -150px;
+    color:#6600A1;
+    cursor: default;
+ }
+
+  #KSU_tabMenu li.KSU_tabMenuHeight1  a {
+ line-height: 2.25em;
+  }
+  #KSU_tabMenu li.KSU_tabMenuHeight1  a span {
+ line-height: 2.25em;
+  }
+  #KSU_tabMenu li.KSU_tabMenuHeight2  a {
+ line-height: 1.125em;
+  }
+  #KSU_tabMenu li.tabMenuHeight2 a span {
+ line-height: 1.125em;
+  }
+
+/* Sub Tabs, if needed */
+
+   #KSU_subtabs {
+     font-size: .85em;
+      clear:both;
+      width: auto;
+      height: 2.2em;
+      background-color: #e7e7e7;
+      padding: 0 20px 0 0;
+   border-bottom: 1px solid #999;
+   }
+
+   *>#KSU_subtabs {
+     padding: 2px 20px 2px 0;
+   }
+
+   #KSU_subtabs ul{
+     padding: 0px;
+      margin: 0;
+      list-style-type: none;
+      float: right;
+      color: #6600A1;
+      line-height: 25px;
+   }
+
+   #KSU_subtabs ul li {
+      display: inline;
+   }
+
+   #KSU_subtabs ul li a {
+      float: right;
+      color: #6600A1;
+      background-color: #e7e7e7;
+      padding: 0 8px;
+   border-bottom: 2px solid #e7e7e7;
+      text-decoration: none;
+   }
+
+   #KSU_subtabs ul li a:hover {
+   border-bottom: 2px solid #6600A1;
+   }
+
+ body.KSU_subtab1 #KSU_subtabs ul li#KSU_subtab1 a,
+ body.KSU_subtab2 #KSU_subtabs ul li#KSU_subtab2 a,
+ body.KSU_subtab3 #KSU_subtabs ul li#KSU_subtab3 a,
+ body.KSU_subtab4 #KSU_subtabs ul li#KSU_subtab4 a,
+ body.KSU_subtab5 #KSU_subtabs ul li#KSU_subtab5 a,
+ body.KSU_subtab6 #KSU_subtabs ul li#KSU_subtab6 a,
+ body.KSU_subtab7 #KSU_subtabs ul li#KSU_subtab7 a,
+ body.KSU_subtab8 #KSU_subtabs ul li#KSU_subtab8 a,
+ body.KSU_subtab9 #KSU_subtabs ul li#KSU_subtab9 a  {
+  font-weight:bold;
+  border-bottom: 2px solid #6600A1;
+ }
+
+  #KSU_subtabs li.KSU_subtabMenuHeight1  a {
+ line-height: 2.2em;
+  }
+  #KSU_subtabs li.KSU_subtabMenuHeight2  a {
+ line-height: 1.1em;
+  }
+
+/* Breadcrumbs */
+
+   #KSU_whereami {
+      clear:both;
+      width:auto;
+      margin: 0;
+      font-size:.85em;
+      border-top: 1px solid #ccc;
+      padding: 10px 20px;
+   }
+
+   #KSU_whereami a {
+      margin:0 5px 0 5px;
+      color:#639;
+      font-weight:bold;
+   }
+
+/* Graphic header (left) and Directory search (right) */
+
+   #KSU_headerLeft {
+      position: static;
+      top: 20px;
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding:0 0 5px 0;
+   }
+
+  #KSU_headerRight {
+      position: static;
+      top: 0px;
+      width: auto;
+      height: 20px;
+      margin:0;
+      padding:0;
+      text-align: right;
+   }
+
+   #KSU_header.KSU_header11 div#KSU_headerRight {
+
+   }
+
+   #KSU_header.KSU_header12 div#KSU_headerRight {
+      float: right;
+   }
+
+   #KSU_header.KSU_header13 div#KSU_headerRight {
+   float: right;
+   }
+
+   #KSU_headerRight a {
+      margin:0 5px 0 5px;
+      font-weight:bold;
+      font-size:.85em;
+   }
+
+   #KSU_directoryLinks {
+      display: inline;
+   }
+
+   #KSU_header.KSU_header12 div#KSU_headerRight div#KSU_directoryLinks {
+
+   }
+
+   #KSU_header.KSU_header12 div#KSU_headerRight div#KSU_directoryLinks {
+      display: none;
+   }
+
+   #KSU_header.KSU_header13 div#KSU_headerRight div#KSU_directoryLinks {
+      display: none;
+   }
+
+   #KSU_headerRight input {
+      border: 1px solid #639;
+      padding:1px;
+      color:#000;
+      font-weight:bold;
+      width:100px;
+      font-size:.85em;
+      margin-left: 8px;
+   }
+
+   #KSU_headerRight form {
+      display: inline;
+   }
+
+
+/* Main Content Area*/
+
+   /* This is a wrapper DIV for all the content */
+   #KSU_content {
+      margin: 20px;
+      width: auto;
+   }
+
+   /* This div is for the left-hand nav */
+   /* It's 200px wide, but is allowed to scroll if someone happens to outgrow it */
+   #KSU_leftCol {
+      float: left;
+      width:200px;
+      overflow: auto;
+      background-color:#ccf;
+      padding: 10px;
+      border-top: 5px solid #903;
+      border-bottom: 5px solid #903;
+      margin: 0 20px 20px 0;
+   }
+
+   #KSU_leftCol p {
+      text-align: left;
+      line-height: 1.3em;
+   }
+
+   #KSU_leftCol ul {
+      padding:0;
+      margin: 0;
+   }
+
+   #KSU_leftCol ul li {
+      list-style-type: none;
+      padding: 0;
+      margin:0;
+   }
+
+   #KSU_leftCol ul ul {
+      margin: 0 0 0 1em;
+      list-style-position: inside;
+   }
+
+   #KSU_leftCol ul ul li {
+      margin: 0;
+   }
+
+   /* This is the right column */
+   #KSU_rightCol {
+      float: right;
+      width: 200px;
+      padding: 10px;
+      margin: 0 0 0 20px;
+
+      background-color: #fff;
+      border-left: 1px solid #ccc;
+   }
+
+   html>div#KSU_rightCol {
+      /* give other browser back their height: auto */
+      height: auto;
+   }
+
+   /* This is the center column, where most of he content is stored */
+   #KSU_centerCol {
+   overflow: visible;
+          padding: 0 0 0 0;
+          margin: 0;
+   /* This is a silly IE hack that seems to allow 100% width child elements, such as tables */
+   height: 1%;
+   }
+
+   *>#KSU_centerCol {
+   height: auto;
+       }
+
+   /* If we're using the one-column template, hide the rightCol and leftCol */
+   body.KSU_oneColumn div#KSU_leftCol {
+      display: none;
+   }
+   body.KSU_oneColumn div#KSU_rightCol {
+      display: none;
+   }
+
+   /* If we're using the two-column template, give it a left margin and hide the rightCol */
+   body.KSU_twoColumn div#KSU_centerCol {
+   margin-left: 250px;
+   }
+
+   body.KSU_twoColumn div#KSU_rightCol {
+      display: none;
+   }
+
+   /* If we're using the three-column template, give it a left and right margins */
+   body.KSU_threeColumn div#KSU_centerCol {
+      margin-left: 270px;
+      margin-right: 240px;
+   }
+
+   /* Clearing ensures footer stays below all other content, where it belongs.
+   .KSU_clearFloats {
+      clear:both;
+   } */
+
+   #KSU_footer {
+      clear:both;
+      border-top: 1px solid #903;
+      margin: 40px;
+      text-align: center;
+      font-size: 70%;
+   }
+
+   #KSU_footer a {
+      font-weight: bold;
+   }
+
+   #KSU_footer .KSU_footertText {
+      font-size: 95%;
+      margin-top: 10px;
+      color: #666666;
+   }
+
+   #KSU_footer img {
+      margin: 0 10px 0 10px;
+   }
+
+
+/* The .hidden classes lets us hide things from CSS-capable browsers, but still have them in text-only and other less-capable agents */
+   .KSU_hidden {
+       position: absolute;
+       left: -9999px;
+       font-size: 1px;
+   }
+
+/* Hide the skipNav from CSS browsers */
+   #KSU_skipNav {
+      position: absolute; left: -9999px;
+   }
+   /* It's doubtful anyone who has a CSS-capable browser will see the skipNav, but on the off chance they do, we'll make sure it looks decent */
+   #KSU_skipNav a:focus {
+      color:#6600A1;
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 10020px;
+      background: #fff;
+      border: solid 1px #000;
+      padding: 4px;
+      width: 15em;
+      z-index: 1;
+   }
+   #KSU_skipNav a:hover {
+      color: blue;
+   }
+   #KSU_skipNav a:active {
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 10020px;
+      background: #fff;
+      border: solid 1px #000;
+      padding: 4px;
+      width: 15em;
+      z-index: 1;
+   }
+
+/* These are some optional classes and id's that allow savvy users to do more "advanced" things within their layout */
+   /* The .KSU_rightBox and .KSU_leftBox classed creates right and left floating grey boxes */
+   #KSU_centerCol div.KSU_rightBox {
+      float:right;
+      width:150px;
+      border: 1px solid #ccc;
+      /* -moz-border-radius isn't standard CSS. It only works in Gecko-based browsers, but doesn't break anything in others */
+      -moz-border-radius:10px;
+      background-color:#f6f5f5;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+
+   #KSU_centerCol div.KSU_leftBox {
+      float:left;
+      width:150px;
+      border: 1px solid #ccc;
+      /* -moz-border-radius isn't standard CSS. It only works in Gecko-based browsers, but doesn't break anything in others */
+      -moz-border-radius:10px;
+      background-color:#f6f5f5;
+      margin:0 20px 20px 0px;
+      padding: 10px;
+   }
+
+   div.KSU_rightBox p, div.KSU_leftBox p {
+      text-align: left;
+      line-height: 1.3em;
+      margin-top: 0px
+   }
+
+   /* Use the .KSU_rightImage class to float an image to the right side of the main content column */
+   /* Note that this also scales the image to a reasonablethe co "floating" size -- 130px wide. You can override this with inline styles, if necessary */
+   #KSU_centerCol img.KSU_rightImage {
+      float:right;
+      width:300px;
+      border: 0;
+      background-color:#ccf;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+   /* Similarly, you can use .KSU_leftImage class to float an image to the left side */
+   #KSU_centerCol img.KSU_leftImage {
+      float:left;
+      width:200px;
+      border: 0;
+      background-color:#ccf;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+   /* This is used exclusively in the photo section */
+   #KSU_content img.Photo {
+      float:left;
+      width:250px;
+      border: 0;
+      background-color:#ccf;
+      margin:0 0 20px 20px;
+      padding: 10px;
+   }
+
+   /* Define the character of UPDATE */
+   small.update {
+      color: #336;
+   }

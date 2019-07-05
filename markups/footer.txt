@@ -1,0 +1,12 @@
+<table rows = 1 columns = 7 cellspacing = 25 align=center>
+<tr>
+	<td><div id="KSU_footerText">COPYRIGHT &copy 2010-2015 ZIJUN LUO</div></td>
+<!--
+	<td><a href="http://www.luozijun.com">HOME</a></td>
+	<td><a href="/markups/About.shtml">ABOUT</a></td>
+	<td><a href="/links.html">LINKS</a></td>
+	<td><a href="/webalizer">STATISTICS</a></td>
+	<td><a href="http://www.ixwebhosting.com/">IX HOSTING</a></td>
+-->
+</tr>
+</table>

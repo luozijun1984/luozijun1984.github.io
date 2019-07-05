@@ -1,7 +1,7 @@
 ﻿
 <html>
 
- <head>
+<head>
   <meta charset="UTF-8">
   <meta name="description" content="Zijun Luo's Homepage">
   <meta name="keywords" content="Zijun Luo,Economics">
@@ -10,7 +10,10 @@
   <title>Zijun Luo's Homepage</title>
 </head> 
 
-<body bgcolor="white" text="black" style="font-size:20;">
+div.content {width: 960px}
+
+<body bgcolor="white" text="black" style="font-size:20;" class="contet">
+<div class="contet">
 
 <h1>Zijun Luo's Homepage</h1>
 
@@ -81,6 +84,7 @@ Spring 2012, Fall 2011, Fall 2010, Spring 2010, Fall 2009</li>
 Summer 2012</li>
 </ul>
 
+</div>
 </body>
 
 </html>
